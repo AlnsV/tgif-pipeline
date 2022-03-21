@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine as builder
+FROM golang:1.18-alpine as builder
 
 # Installing git
 RUN apk add --no-cache curl git
@@ -23,4 +23,6 @@ WORKDIR /pipeline
 COPY --from=builder /go/src/tgif-pipeline /pipeline
 RUN chmod +x ./pipeline
 RUN apk add ca-certificates && rm -rf /var/cache/apk/*
+
+RUN sleep 15
 CMD ./pipeline

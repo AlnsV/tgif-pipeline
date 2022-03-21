@@ -1,5 +1,9 @@
+github.com/AlnsV/go-amqp v0.0.0-20200705021909-f58fe1c148d2 h1:aCYyKpmZBb3moxg091/WbwuR6Hb6poOVKCQEfre39Bs=
+github.com/AlnsV/go-amqp v0.0.0-20200705021909-f58fe1c148d2/go.mod h1:rN4r90qGlkWroDCireV5nuqHmn/SbKhJY8VZo9OPVj8=
 github.com/AlnsV/go-crypto-ws-gateway v0.0.1-alpha h1:lexgvOIHGgy9i7ZTvwpd9vMlnBqQpr9qiwpMgUxI0e8=
 github.com/AlnsV/go-crypto-ws-gateway v0.0.1-alpha/go.mod h1:AZio4GX6VD0BTgTODUp7WRa9UypJqAqLjVh+CIAqnZk=
+github.com/AlnsV/go-crypto-ws-gateway v0.0.2-alpha h1:CfYA55TQCrwGk5ORXB+eD2uMNrPjqJQ3gjEDqs8CD5I=
+github.com/AlnsV/go-crypto-ws-gateway v0.0.2-alpha/go.mod h1:Hgfz1KRQVTBvcM5Ao+7ommNmVVHvQp710ttHAFq3fPE=
 github.com/caarlos0/env v3.5.0+incompatible h1:Yy0UN8o9Wtr/jGHZDpCBLpNrzcFLLM2yixi/rBrKyJs=
 github.com/caarlos0/env v3.5.0+incompatible/go.mod h1:tdCsowwCzMLdkqRYDlHpZCp2UooDD3MspDBjZ2AD02Y=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -10,6 +14,8 @@ github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINE
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sirupsen/logrus v1.8.1 h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE=
 github.com/sirupsen/logrus v1.8.1/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic61uBYv0=
+github.com/streadway/amqp v1.0.0 h1:kuuDrUJFZL1QYL9hUNuCxNObNzB0bV/ZG5jV3RWAQgo=
+github.com/streadway/amqp v1.0.0/go.mod h1:AZpEONHx3DKn8O/DFsRAY58/XVQiIPMTMB1SddzLXVw=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 golang.org/x/sys v0.0.0-20191026070338-33540a1f6037 h1:YyJpGZS1sBuBCzLAR1VEpK193GlqGZbnPFnPV/5Rsb4=
 golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

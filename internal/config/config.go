@@ -10,6 +10,11 @@ type Config struct {
 	FTXAPISecret string `env:"FTX_API_SECRET"`
 
 	InfluxAddress string `env:"INFLUX_ADDRESS"`
+
+	RabbitAddress string `env:"RABBIT_ADDRESS" envDefault:"127.0.0.1"`
+	RabbitUser    string `env:"RABBIT_USER" envDefault:"guest"`
+	RabbitPWD     string `env:"RABBIT_PASSWORD" envDefault:"guest"`
+	RabbitPort    int    `env:"RABBIT_PORT" envDefault:"5672"`
 }
 
 func New() (*Config, error) {
